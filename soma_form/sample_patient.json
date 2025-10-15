@@ -1,0 +1,33 @@
+{
+  "age": 42,
+  "gender": "Female",
+  "timestamp": "2025-09-24T10:00:00Z",
+  "conversation_history": [
+    { "role": "patient", "message": "I have been feeling very tired and dizzy lately." },
+    { "role": "doctor", "message": "Do you also experience shortness of breath or chest pain?" },
+    { "role": "patient", "message": "Yes, sometimes I feel a slight pressure in my chest." },
+    { "role": "doctor", "message": "Do you have a history of heart problems in your family?" },
+    { "role": "patient", "message": "Yes, my father had a heart attack at 55." },
+    { "role": "doctor", "message": "Are you currently taking any medication?" },
+    { "role": "patient", "message": "Only iron supplements occasionally." },
+    { "role": "doctor", "message": "Have you experienced sudden weight loss or loss of appetite?" },
+    { "role": "patient", "message": "I lost around 5 kg in the last 2 months without trying." },
+    { "role": "doctor", "message": "We’ll need to run a blood test and ECG to rule out major issues." },
+    { "role": "patient", "message": "Okay, please let me know if I should be worried." },
+    { "role": "doctor", "message": "Don’t worry, we’ll investigate step by step and confirm with tests." }
+  ],
+  "disease_prediction": {
+    "disease": "Anemia",
+    "probability": 0.78,
+    "explanation": "The combination of fatigue, dizziness, chest pressure, and unexplained weight loss suggests possible anemia, though cardiovascular risks cannot be excluded. A CBC and iron study are recommended."
+  },
+  "anomaly_detection": {
+    "details": [
+      { "type": "Heart Rate", "value": "115 bpm", "severity": "High", "note": "Heart rate above normal resting range." },
+      { "type": "Blood Pressure", "value": "145/95", "severity": "Moderate", "note": "Elevated blood pressure detected." },
+      { "type": "Oxygen Saturation", "value": "92%", "severity": "Moderate", "note": "Slightly lower than normal oxygen saturation." },
+      { "type": "Hemoglobin", "value": "9.5 g/dL", "severity": "High", "note": "Hemoglobin significantly below normal range, indicates anemia." },
+      { "type": "Cholesterol", "value": "240 mg/dL", "severity": "Moderate", "note": "Borderline high cholesterol, may increase cardiovascular risk." }
+    ]
+  }
+}

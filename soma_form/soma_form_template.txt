@@ -1,0 +1,48 @@
+# 1. Patient Information
+- Name: __________________________
+- Age: ________
+- Gender: __________
+- Timestamp: ______________________
+
+# 2. Chief Complaint
+- Description: __________________________
+
+# 3. Symptoms (mark ☑ or ☐)
+- Fatigue: ☐
+- Dizziness: ☐
+- Shortness of breath: ☐
+- Chest pressure: ☐
+- Weight loss: ☐
+
+# 4. Family History
+- Heart disease in family: ☐ Yes ☐ No
+- Details: __________________________
+
+# 5. Medications
+- List: __________________________
+
+# 6. Anomaly Detection
+| Type              | Value      | Severity  | Note                                        |
+|-------------------|------------|-----------|---------------------------------------------|
+|                   |            |           |                                             |
+
+# 7. Assessment
+- Suspected disease: __________________________
+- Probability: __________
+- Explanation:
+  - _________________________________________________________________________
+
+# 8. Plan
+- Recommended tests:
+  - CBC: ☐
+  - Iron studies: ☐
+  - ECG: ☐
+- Risk flags:
+  - Tachycardia: ☐
+  - Elevated BP: ☐
+  - Low SpO2: ☐
+  - High cholesterol: ☐
+  - Anemia indicators: ☐
+
+# 9. Follow-up
+- Note: ______________________________________________________________________
